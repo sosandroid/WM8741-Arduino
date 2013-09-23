@@ -21,3 +21,6 @@ Does not support at this time DSD or 8fs features of the chip. To be added.
 Should work on WM874x chips.
 
 [WM8741 Datasheet](http://www.wolfsonmicro.com/products/dacs/WM8741/)
+
+## Hardware
+WM8741 is a 3.3V device, if your Arduino board uses a 5V I2C bus, please use a level shifter provided by any of your usual harware store
