@@ -16,4 +16,6 @@ An Arduino Library for Wolfson Micro WM8741 DACs using I2C bus. This has been do
 
 Does not support at this time DSD or 8fs features of the chip. To be added.
 
+## Misc.
+
 Should work on WM874x chips.
