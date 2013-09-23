@@ -19,3 +19,4 @@ Does not support at this time DSD or 8fs features of the chip. To be added.
 ## Misc.
 
 Should work on WM874x chips.
+(WM8741 Datasheet) [http://www.wolfsonmicro.com/products/dacs/WM8741/]
