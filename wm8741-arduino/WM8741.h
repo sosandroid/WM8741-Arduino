@@ -28,20 +28,20 @@ class WM8741 {
     public:
             WM8741(bool monomode, char unsigned VolMax, char unsigned VolMin, char unsigned VolCurr);
             void SetupStereoMode();
-			void SetupMonoMode();
-			void setReg (uint8_t ChipAddress, uint8_t RegAddress, uint8_t RegValue);
-			void SetVolume(int unsigned volume, bool changeMute);
-			void SetFilter(int filter);
-			void NextFilter();
-			void PrevFilter();
-			void VolumeUp();
-			void VolumeDown();
-			void Mute();
-			void ZeroSound();
-			void SoftReset();
-			void getReg(uint8_t ChipAddress, uint8_t RegAddress);
-			void CheckMuteStatus();
-			//Todo : add mute status feedback, current volume feedback
+	    void SetupMonoMode();
+	    void setReg (uint8_t ChipAddress, uint8_t RegAddress, uint8_t RegValue);
+	    void SetVolume(int unsigned volume, bool changeMute);
+	    void SetFilter(int filter);
+	    void NextFilter();
+	    void PrevFilter();
+	    void VolumeUp();
+	    void VolumeDown();
+	    void Mute();
+	    void ZeroSound();
+	    void SoftReset();
+	    void getReg(uint8_t ChipAddress, uint8_t RegAddress);
+	    void CheckMuteStatus();
+	    //Todo : add mute status feedback, current volume feedback
 };
      
 #endif
