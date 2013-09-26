@@ -25,6 +25,7 @@ ZeroSound	KEYWORD2
 SoftReset	KEYWORD2
 getReg	KEYWORD2
 CheckMuteStatus	KEYWORD2
+isMuted	KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)

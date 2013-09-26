@@ -223,7 +223,7 @@ void WM8741::SetVolume(int unsigned volume, bool changeMute = true) {
 void WM8741::SetFilter(int filter) {
 	//Effect of filter change according to sample rate
 	//switch / case 
-	//opération sur bit
+	//bit oprtaion
 	//setreg
 	byte filtre1 = 0x00;
 	byte filtre2 = 0x01;
@@ -317,7 +317,7 @@ void WM8741::VolumeDown(void) {
 ///////////////////////////
 void WM8741::Mute(void) {
 	if (muted) {		
-		reg4 = wm8741_reg4_default & 0x17; //passer bit4 à 0
+		reg4 = wm8741_reg4_default & 0x17; //set bit4 to 0
 		if (isMono) {
 			setReg (wm8741_i2c_one, wm8741_reg4_addr, reg4);
 			setReg (wm8741_i2c_two, wm8741_reg4_addr, reg4);
@@ -328,7 +328,7 @@ void WM8741::Mute(void) {
 		muted = false;
 	}
 	else {
-		reg4 = wm8741_reg4_default | 0x08; //passer bit4 à 1
+		reg4 = wm8741_reg4_default | 0x08; //set bit4 to 1
 		if (isMono) {
 			setReg (wm8741_i2c_one, wm8741_reg4_addr, reg4);
 			setReg (wm8741_i2c_two, wm8741_reg4_addr, reg4);
@@ -392,5 +392,9 @@ void WM8741::CheckMuteStatus (void) {
 	else {
 		muted = false;
 	}
+}
+
+bool WM8741::isMuted (void) {
+	return muted;
 }
 
