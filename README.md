@@ -26,7 +26,7 @@ Should work on WM874x chips.
 WM8741 is a 3.3V device, if your Arduino board uses a 5V I2C bus, please use a level shifter provided by any of your usual hardware provider
 
 ## Usage ##
-Copy the library into your Arduino Library folder. Here one example sketch
+Copy the library into your Arduino IDE Library folder. Here one example sketch
 
       #include <WM8741.h>
       //dac set in stereo mode
