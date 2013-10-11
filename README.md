@@ -22,7 +22,7 @@ Move to [I2Cdev](https://github.com/jrowberg/i2cdevlib) to add more structure an
 
 ## Misc. ##
 
-Should work on WM874x chips.
+Should also work on WM8742 chips.
 
 [WM8741 Datasheet](http://www.wolfsonmicro.com/documents/uploads/data_sheets/en/WM8741.pdf)
 
