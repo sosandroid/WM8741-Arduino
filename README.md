@@ -1,6 +1,7 @@
 WM8741-Arduino
 ==============
-V 1.0
+	v1.0.0 first release
+	v1.0.1 bugfix on getReg
 
 An Arduino Library for Wolfson Micro [WM8741](http://www.cirrus.com/en/products/wm8741.html) DACs using I2C bus. This has been done to manage the [Twisted Pear Audio Opus DAC](http://www.twistedpearaudio.com/digital/opus.aspx) in software mode. Any board using WM8741 will work the same way.
 
@@ -24,7 +25,7 @@ Move to [I2Cdev](https://github.com/jrowberg/i2cdevlib) to add more structure an
 
 Should also work on WM8742 chips.
 
-[WM8741 Datasheet](http://www.wolfsonmicro.com/documents/uploads/data_sheets/en/WM8741.pdf)
+[WM8741 Datasheet](http://www.cirrus.com/en/pubs/proDatasheet/WM8741_v4.3.pdf)
 
 ## Hardware ##
 WM8741 is a 3.3V device, if your Arduino board uses a 5V I2C bus, please use a level shifter provided by any of your usual hardware provider

@@ -1,7 +1,8 @@
 ////////////////////////////////////////////////////////
 //
 // WM8741 control through I2C
-// Version 1.0
+// Version 1.0 Aug 2012
+// Version 1.0.1 March 2015
 //
 // Functions
 // - Setting mono / stereo

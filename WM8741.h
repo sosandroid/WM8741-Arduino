@@ -3,8 +3,9 @@ Arduino library for Wolfson Microelectronics WM8741 using I2C bus.
 Done to manage PCM data using I2S bus
 Do not manage DSD or 8FS 
 
-Version 1.0
-Aout 2012
+Version 1.0 Aug 2012
+Version 1.0.1 March 2015
+
 
 Tested on Arduino Mega 2560
 Uses Arduino 1.0.1 IDE
