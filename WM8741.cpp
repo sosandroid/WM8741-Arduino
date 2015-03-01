@@ -368,7 +368,7 @@ void WM8741::SoftReset(void){
 ///////////////////////////
 // Read one register
 ///////////////////////////
-char WM8741::getReg(uint8_t ChipAddress, uint8_t RegAddress){
+uint8_t WM8741::getReg(uint8_t ChipAddress, uint8_t RegAddress){
 	
 	byte reg = 0x00;
 	Wire.beginTransmission(ChipAddress);
